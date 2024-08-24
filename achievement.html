@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Achievements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .achievement {
+            margin-bottom: 30px;
+        }
+
+        .achievement h2 {
+            color: #008080;
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        .achievement p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .achievement img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #008080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .achievement {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 40px;
+            }
+
+            .achievement img {
+                margin-right: 20px;
+                flex: 1;
+            }
+
+            .achievement div {
+                flex: 2;
+            }
+
+            .achievement:nth-child(even) img {
+                margin-right: 0;
+                margin-left: 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .achievement h2 {
+                font-size: 1.5rem;
+            }
+
+            .achievement p {
+                font-size: 0.9rem;
+            }
+
+            footer p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Achievements</h1>
+</header>
+
+<div class="container">
+    
+    <div class="achievement">
+        <a href="images/award1.jpg">
+            <img src="images/award1.jpg" alt="Achievement 1">
+        </a>
+        <div>
+            <h2>Accredited with Top Healthcare Awards</h2>
+            <p>Our hospital has been recognized with numerous top healthcare awards for excellence in patient care, technology integration, and overall performance. These accolades demonstrate our commitment to providing world-class healthcare services.</p>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <a href="images/award2.jpg"><img src="images/award2.jpg" alt="Achievement 2"></a>
+        <div>
+            <h2>Pioneering Research in Cardiology</h2>
+            <p>We have made groundbreaking advancements in cardiology, leading to improved treatment protocols and patient outcomes. Our research team continues to push the boundaries of medical science, ensuring our patients receive the best possible care.</p>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <a href="images/award3.png"><img src="images/award3.png" alt="Achievement 3"></a>
+        <div>
+            <h2>Highest Patient Satisfaction Rates</h2>
+            <p>Our hospital consistently achieves the highest patient satisfaction rates in the region, thanks to our dedicated staff, state-of-the-art facilities, and personalized care approach. We strive to exceed patient expectations in every aspect of our service.</p>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <a href="images/award4.png"><img src="images/award4.png" alt="Achievement 4"></a>
+        <div>
+            <h2>IHF Award</h2>
+            <p>Our hospital consistently achieves the highest patient satisfaction rates in the region, thanks to our dedicated staff, state-of-the-art facilities, and personalized care approach. We strive to exceed patient expectations in every aspect of our service.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Our Hospital. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
