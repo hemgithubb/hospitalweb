@@ -112,7 +112,6 @@
             .then(response => response.text())
             .then(data => {
                 window.location.href = "booked.html"; // Redirect to successfull.html
-                alert("Form submitted successfully!");
                 console.log(data);
             })
             .catch(error => {
